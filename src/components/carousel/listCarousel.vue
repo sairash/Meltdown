@@ -15,15 +15,11 @@
 </template>
 
 <script>
-import Flicking from "@egjs/vue3-flicking";
 
 export default {
   name: 'listCarousel',
   props: {
     msg: String
-  },
-  components: {
-    Flicking
   },
 }
 </script>

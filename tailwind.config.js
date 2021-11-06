@@ -3,7 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     screens: {
       'xxs': '300px',
@@ -38,7 +38,7 @@ module.exports = {
           dark: '#1a1918',
         },
         meltgray: {
-          light: '#1a1918',
+          light: '#272624',
           DEFAULT: '#1a1918',
           dark: '#000',
         },

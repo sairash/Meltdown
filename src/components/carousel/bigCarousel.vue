@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import Flicking from "@egjs/vue3-flicking";
 import { Pagination, AutoPlay, Arrow } from "@egjs/flicking-plugins";
 import "@egjs/flicking-plugins/dist/arrow.css";
 import "@egjs/flicking-plugins/dist/pagination.css";
@@ -24,7 +23,6 @@ export default {
     msg: String
   },
   components: {
-    Flicking,
     bigCarouselInnerMain
   },
   data() {

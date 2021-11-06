@@ -25,8 +25,10 @@ export default {
   components: {
     bigCarousel,
     listCarousel,
-    productCarousel
-    // Flicking
+    productCarousel,
+  },
+  mounted() {
+    
   },
 }
 </script>

@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import Flicking from "@egjs/vue3-flicking";
 import productCarouselInnerMain from "@/components/carousel/carouselComponents/productCarouselInnerMain.vue";
 
 export default {
@@ -70,9 +69,8 @@ export default {
     msg: String
   },
   components: {
-    Flicking,
     productCarouselInnerMain
-  },
+  }
 }
 </script>
 
